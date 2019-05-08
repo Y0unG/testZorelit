@@ -1,0 +1,138 @@
+body {
+    padding-top: 30px;
+    font-family: Lato;
+    margin: 0;
+}
+
+/*
+Max width of page
+ */
+
+.wrapper {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.wrapper_small {
+    width: 48%;
+    margin: 0 auto;
+}
+
+.wrapper_smallest {
+    width: 35%;
+    margin: 0 auto;
+}
+
+/*
+Universal title and text
+ */
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+}
+
+
+/*
+Header
+ */
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header__button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #28225e;
+    border: 1px solid #28225e;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px ;
+}
+
+/*
+Solution
+ */
+
+.solution-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.solution-gallery {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin-top: 7%;
+
+}
+
+.solution__arrow {
+    position: absolute;
+    margin-left: 9%;
+}
+
+.solution-gallery__text {
+    padding-left: 20px;
+    max-width: 270px;
+}
+
+.solution__img {
+    padding: 5px;
+}
+
+.solution__arrow_img {
+    width: 28px;
+    height: 11px;
+}
+
+/*
+Quotes
+ */
+.quotes {
+    margin-top: 7%;
+    color: #fff;
+    background-image: linear-gradient(to right, #19256b 0%, #1a256b 32%, #da5716 73%, #da5413 100%);
+    background-size: 100%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.quotes__text-quote {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.quotes__text-author {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+}
+
+
